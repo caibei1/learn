@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c3921791-8006-4cb3-b0ec-d9ec64990899" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/TX/main.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/levelDB/main.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/levelDB/test.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/test.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go36/go13/test1.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go36/go13/test2.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -45,25 +43,25 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="go" value="45" />
+          <entry key="go" value="48" />
           <entry key="ldb" value="1" />
           <entry key="log" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="Go" value="45" />
+          <entry key="Go" value="48" />
           <entry key="PLAIN_TEXT" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="go" value="3587" />
+          <entry key="go" value="3769" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Go" value="3587" />
+          <entry key="Go" value="3769" />
         </counts>
       </usages-collector>
     </session>
@@ -91,8 +89,35 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/test/test.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="462">
-              <caret line="21" column="4" selection-start-line="21" selection-start-column="4" selection-end-line="21" selection-end-column="4" />
+            <state relative-caret-position="440">
+              <caret line="20" column="5" lean-forward="true" selection-start-line="20" selection-start-column="5" selection-end-line="20" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/go36/go13/test1.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="53">
+              <caret line="6" column="13" lean-forward="true" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/go36/go13/test2.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="53">
+              <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/go36/go12/test1.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="396">
+              <caret line="18" column="18" lean-forward="true" selection-start-line="18" selection-start-column="18" selection-end-line="18" selection-end-column="18" />
             </state>
           </provider>
         </entry>
@@ -138,6 +163,8 @@
         <option value="$PROJECT_DIR$/levelDB/test.go" />
         <option value="$PROJECT_DIR$/levelDB/main.go" />
         <option value="$PROJECT_DIR$/test/test.go" />
+        <option value="$PROJECT_DIR$/go36/go13/test1.go" />
+        <option value="$PROJECT_DIR$/go36/go13/test2.go" />
       </list>
     </option>
   </component>
@@ -207,16 +234,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Go Build.go build test.go (1)">
-    <configuration name="go build PrepareQuery.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
-      <module name="learn" />
-      <working_directory value="$PROJECT_DIR$/" />
-      <kind value="FILE" />
-      <filePath value="$PROJECT_DIR$/mysql/PrepareQuery.go" />
-      <package value="learn" />
-      <directory value="$PROJECT_DIR$/" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Go Build.go build test2.go">
     <configuration name="go build main.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="learn" />
       <working_directory value="$PROJECT_DIR$/" />
@@ -226,11 +244,20 @@
       <directory value="$PROJECT_DIR$/" />
       <method v="2" />
     </configuration>
-    <configuration name="go build query.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+    <configuration name="go build test1.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="learn" />
       <working_directory value="$PROJECT_DIR$/" />
       <kind value="FILE" />
-      <filePath value="$PROJECT_DIR$/mysql/query.go" />
+      <filePath value="$PROJECT_DIR$/go36/go13/test1.go" />
+      <package value="learn" />
+      <directory value="$PROJECT_DIR$/" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go build test2.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="learn" />
+      <working_directory value="$PROJECT_DIR$/" />
+      <kind value="FILE" />
+      <filePath value="$PROJECT_DIR$/go36/go13/test2.go" />
       <package value="learn" />
       <directory value="$PROJECT_DIR$/" />
       <method v="2" />
@@ -254,19 +281,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Go Build.go build query.go" />
-      <item itemvalue="Go Build.go build PrepareQuery.go" />
       <item itemvalue="Go Build.go build test.go (1)" />
       <item itemvalue="Go Build.go build main.go" />
       <item itemvalue="Go Build.go build test.go" />
+      <item itemvalue="Go Build.go build test1.go" />
+      <item itemvalue="Go Build.go build test2.go" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Go Build.go build test2.go" />
+        <item itemvalue="Go Build.go build test1.go" />
         <item itemvalue="Go Build.go build test.go (1)" />
         <item itemvalue="Go Build.go build main.go" />
         <item itemvalue="Go Build.go build test.go" />
-        <item itemvalue="Go Build.go build PrepareQuery.go" />
-        <item itemvalue="Go Build.go build query.go" />
       </list>
     </recent_temporary>
   </component>
@@ -274,12 +301,12 @@
     <frame x="0" y="-2" width="1920" height="1082" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2736954" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2736954" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.20271683" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.20271683" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.38035527" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -287,7 +314,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="9" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" order="10" weight="0.32903227" />
+      <window_info anchor="bottom" id="Terminal" order="10" weight="0.32810867" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -491,13 +518,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/go36/go12/test1.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="9" column="52" selection-start-line="9" selection-start-column="52" selection-end-line="9" selection-end-column="52" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/TX/main.go">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="154">
@@ -576,10 +596,31 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/go36/go12/test1.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="396">
+          <caret line="18" column="18" lean-forward="true" selection-start-line="18" selection-start-column="18" selection-end-line="18" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/go36/go13/test1.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="53">
+          <caret line="6" column="13" lean-forward="true" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/go36/go13/test2.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="53">
+          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/test/test.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="462">
-          <caret line="21" column="4" selection-start-line="21" selection-start-column="4" selection-end-line="21" selection-end-column="4" />
+        <state relative-caret-position="440">
+          <caret line="20" column="5" lean-forward="true" selection-start-line="20" selection-start-column="5" selection-end-line="20" selection-end-column="5" />
         </state>
       </provider>
     </entry>
