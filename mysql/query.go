@@ -20,14 +20,23 @@ func main()  {
 	}
 	defer db.Close()
 
-	ns := []num{}
-	rows,_ := db.Query("select * from num where id = ?",`1' or '1' = '1`)
+	//ns := []num{}
 	//rows,_ := db.Query("select * from num")
-	for rows.Next(){
-		n := num{}
-		rows.Scan(&n.id,&n.num)
-		ns = append(ns,n)
+	////rows,_ := db.Query("select * from num")
+	//for rows.Next(){
+	//	n := num{}
+	//	rows.Scan(&n.id,&n.num)
+	//	ns = append(ns,n)
+	//}
+	//rows.Close()
+	//fmt.Println(ns)
+
+	row1 := db.QueryRow("select count(*) from num where num = ?",7)
+	var i int
+	err = row1.Scan(&i)
+	if err != nil {
+		fmt.Println(err)
 	}
-	rows.Close()
-	fmt.Println(ns)
+	fmt.Println(i)
+
 }
