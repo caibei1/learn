@@ -3,7 +3,6 @@ package main
 import (
 	"fmt"
 	"net/http"
-	"time"
 )
 
 func main()  {
@@ -16,6 +15,5 @@ func main()  {
 }
 
 func Hello(w http.ResponseWriter,r *http.Request)  {
-	fmt.Println("hello")
-	time.Sleep(100*time.Second)
+	sleep()
 }

@@ -102,6 +102,17 @@ func (a *AVL)LeftPrint()  {
 }
 
 
+//先序遍历
+func LeftPrint(node *AVL)  {
+	if node != nil {
+		LeftPrint(node.left)
+		fmt.Print("  ")
+		fmt.Print(node.value)
+		LeftPrint(node.right)
+	}
+}
+
+
 func (root *AVL)FindBefore(value int) (*AVL) {
 	var result *AVL
 	if value == root.value{
@@ -191,8 +202,12 @@ func main()  {
 		root.Insert(node)
 	}
 	root.LeftPrint()
+	fmt.Println("")
+	LeftPrint(root)
 	root.Remove1(47)
 	fmt.Println("")
 	root.LeftPrint()
+	fmt.Println("")
+	LeftPrint(root)
 
 }

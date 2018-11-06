@@ -2,27 +2,12 @@ package main
 
 import "fmt"
 
-type  S struct {
-	age int
-}
-
-func (s S)change(i int)  {
-	s.age = i
-}
-
-
-func (s *S)change1(i int)  {
-	s.age = i
-}
 
 func main (){
-	s := S{
-		1,
-	}
+	array := [4]int{10, 20, 30, 40}
+	slice := array[0:2]
+	newSlice := append(append(append(slice, 50), 100), 150)
+	newSlice[1] += 1
+	fmt.Println(slice)
 
-	s.change(2)
-	fmt.Println(s)
-
-	s.change1(2)
-	fmt.Println(s)
 }
